@@ -1,0 +1,46 @@
+1. Create a directory called MyFolder
+
+2. Navigate into the MyFolder directory
+
+3. Create a file called file1.txt inside MyFolder
+
+4. Write "Hello, World!" to file1.txt
+
+5. Display the contents of file1.txt
+
+6. Create another file called file2.txt inside MyFolder
+
+7. Write multiple line of text to file2.txt
+
+8. Display the contents of file2.txt
+
+9. Create a directory called SubFolder inside MyFolder
+
+10. Write "Hello, World!" to file1.txt in SubFolder
+
+11. Display the contents of file1.txt from inside SubFolder
+
+12. Delete file2.txt from MyFolder
+
+13. Write "Sample Text" to all three files: a.txt, b.txt, c.txt
+
+14. Delete all .txt files from MyFolder
+
+15. Delete the SubFolder (including it's contents)
+
+16. Display current date
+
+17. Display current time
+
+18. Display system IP address
+
+19. Make a copy of a file (a.txt)
+
+20. Copy a directory (with it's contents)    [optional]
+
+21. Move a file
+
+22. Rename a file
+
+23. Combine copy and rename
+

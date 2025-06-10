@@ -1,0 +1,67 @@
+vi ab.sh
+
+Write a script to display your name
+------> #!/bin/bash
+        echo "My name is Tridib Sarkar"
+
+
+
+#!/bin/bash
+echo $(expr 5 + 6)
+
+output: 11
+
+
+
+
+
+Take input two values and do summation
+------> read num1
+        read num2
+        sum=$((num1 + num2))
+        echo $sum
+
+
+
+echo `expr 2 + 2`
+echo $(expr 2 + 2)
+
+echo `expr 2 \* 2`
+echo $(expr 2 \* 2)
+
+
+
+num1=20.5
+num2=10
+echo "$num1+$num2" | bc
+num3=$(bc <<< "$num1+num2")
+echo num3
+
+
+
+a=5
+b=6
+if [ $a -eq $b ]; then
+	echo "The values are equal."
+else
+	echo "The values are not equal."
+fi
+
+
+
+a=Hello
+b=hello
+if [ "$a" = "$b" ]; then
+	echo "The values are equal."
+else
+	echo "The values are not equal."
+fi
+
+
+
+
+
+
+
+
+

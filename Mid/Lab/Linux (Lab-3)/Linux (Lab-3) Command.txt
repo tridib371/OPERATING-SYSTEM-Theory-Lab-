@@ -1,0 +1,86 @@
+man ------> displays the manual (help documentation) for a specified command or tool in Linux
+
+man man ------> particular command er information dibe
+
+cd --help ------> shows a brief help text for the cd (change directory) command, explaining its usage and options
+
+cat --help ------> displays a help message for the cat command, explaining its usage, options, and examples
+
+wc a.txt ------> 1. number of lines, 2. number of words, 3. number of character
+
+wc -c a.txt ------> character
+
+wc -w a.txt ------> word
+
+wc -l a.txt ------> line
+
+nl a.txt ------> line e number add hobe
+
+nl -i2 a.txt ------> command numbers the lines in a.txt, starting at 1 and incrementing by 2 for each subsequent line
+
+sort a.txt ------> it will sort content (by default ascending)
+
+sort -r a.txt ------> reverse sort (descending)
+
+sort -u a.txt ------> command sorts the lines of a.txt in ascending order and removes duplicate lines
+
+sort -k 2 a.txt ------> sorts the lines of a.txt based on the second field (column) in each line, using whitespace as the default delimiter
+
+sort -k 2.2 a.txt ------> sorts lines based on the second word, starting from its second character
+(2nd field er 2nd character)
+
+head a.txt ------> it will show first 10 line of a.txt file
+
+tail a.txt ------> it will show last 10 line of a.txt file
+
+head -6c a.txt ------> it will count first 6 character of t.txt
+
+head -5 a.txt ------> displays the first 5 lines of the file a.txt
+
+head -3 a.txt b.txt ------> displays the first 3 lines of both a.txt and b.txt
+
+cut -d, -f 1,3 a.txt ------> extracts and displays the 1st and 3rd fields (columns) from the file a.txt, assuming the fields are separated by commas (-d,)
+d Specifies the delimiter
+f Specifies which fields (columns) to extract
+
+cut -c 1-4 a.txt ------> extracts and displays the first 4 characters of each line from the file a.txt
+
+cut -c 5- a.txt ------> extracts and displays all characters starting from the 5th character to the end of each line in the file a.txt
+
+paste -d "," f1.txt f2.txt ------> combines the contents of f1.txt and f2.txt side by side, using a comma as a separator
+
+paste f1.txt f2.txt ------> merges the contents of f1.txt and f2.txt side by side, using a tab as the delimiter
+
+grep -i "world" a.txt ------> searches for the word "world" in a.txt, ignoring case (uppercase or lowercase)
+
+grep  "world" a.txt ------> searches for the exact word "world" in a.txt, considering case sensitivity
+
+grep -v "world" a.txt ------> displays all lines in a.txt that do not contain the word "world"
+
+grep -o "world" a.txt ------> displays only the matches of the word "world" found in a.txt, one per line
+
+chmod 777 f2.txt ------> gives full read, write, and execute permissions to the owner, group, and others for the file f2.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

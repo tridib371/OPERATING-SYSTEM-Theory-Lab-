@@ -1,0 +1,107 @@
+Write a shell script that prompts the user to enter a number. Check if the number is either between 20 and 30 (inclusive) or less than 10, and is not equal to 2. Display "Number meets the criteria" if both conditions are true. Otherwise, display "Number does not meet the criteria." [ using && (And) || (OR) ]
+
+
+
+#!/bin/bash
+read -p "Enter a number: " num
+if { [$num -ge 20] && [$num -le 30] || [$num -lt 10]; }
+     && [$num -ne 2]; then
+    echo "Number meets the criteria."
+else
+    echo "Number does not meet the criteria."
+fi
+
+
+
+
+#!/bin/bash
+read -p "enter a number: " num
+if { [ $num -ge 20 ] && [ $num -le 30 ]; } || [ $num -lt 10 ]; then
+    echo "Number meets the criteria"
+else
+    echo "Number does not meet the criteria"
+fi
+
+ 
+
+
+
+Write a shell script that uses a while loop to print the numbers from 1 to 5.
+
+
+#!/bin/bash
+num=1
+while [ $num -le 5 ]; do
+    echo $num
+    num=$((num + 1))
+done
+
+
+
+Write a shell script that uses a for loop to print the numbers from 1 to 20.
+
+#!/bin/bash
+for num in {1..20}; do
+    echo $num
+done
+
+
+
+#!/bin/bash
+for ((num=1; num <=20; num++)); do
+    echo $num
+done
+
+
+
+Write a shell script that uses nested for loops to generate and print a multiplication table for numbers 1 through 5.
+
+
+#!/bin/bash
+for i in {1..5}; do
+    for j in {1..5}; do
+        echo -n "$((i * j)) "
+    done
+    echo
+done
+
+
+
+
+Select loop with cases:
+
+select variable in alal dulal Rahim
+do
+  case $variable in
+    alal) #Case alal
+      echo "Alal is selected"
+    ;;
+    dulal) #Case dulal
+      echo "Dulal is selected"
+    ;;
+    rahim) #Case rahim
+      echo "Rahim is selected"
+    ;;
+    *) #Default case
+      echo "Default"
+    ;;
+  esac
+done
+
+(Now press CTRL+C to exit)
+
+
+
+
+#!/bin/bash
+a=0
+until [ ! $a -ge 10 ]; do
+     echo $a
+     a=$((a + 1))
+done
+
+
+
+
+
+

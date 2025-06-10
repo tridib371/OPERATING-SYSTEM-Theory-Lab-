@@ -1,0 +1,42 @@
+1. touch file1.txt
+
+2. mkdir mydir
+
+3. echo "Hello, World!" > output.txt
+
+4. echo "Appending a new line." >> output.txt
+
+5. cat output.txt
+
+6. pwd
+
+7. echo "Some text in file2" > file2.txt
+   cat output.txt file2.txt > combined.txt
+
+8. less combined.txt
+
+9. cat file2.txt >> output.txt
+
+10. cat -n combined.txt
+
+11. touch .hiddenfile
+
+12. sort output.txt
+
+13. cp file1.txt file1_backup.txt
+
+14. cp output.txt file2.txt mydir
+
+15. mv file2.txt mydir
+
+16. rm file1_backup.txt
+
+17. rmdir mydir
+
+18. rm -r testdir
+
+19. rm output.txt mydir/file2.txt
+
+20. mkdir -p nested/dir1/dir2
+    rm -r nested
+  

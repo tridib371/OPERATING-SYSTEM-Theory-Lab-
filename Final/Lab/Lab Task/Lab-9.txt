@@ -1,0 +1,71 @@
+#!/bin/bash
+a=5
+b=6
+if [ $a == $b ]; then
+	echo "The values are equal."
+elif [ $a > $b ]; then
+	echo "$a is grater than $b."
+elif [ $a < $b ]; then
+	echo "$a is less than $b."
+else
+	echo "The values are not equal."
+fi
+
+
+
+
+
+Write a shell script that prompts the user to enter the current hour (0 - 23). The script should display a greeting based on the time of day:
+
+0 - 11: "Good morning!"
+12 - 17: "Good afternoon!"
+18 - 23: "Good evening!"
+
+
+#!/bin/bash
+read hour
+
+if [ $hour -lt 12 ]; then
+    echo "Good Morning"
+elif [ $hour -lt 18 ]; then
+    echo "Good Afternoon"
+else
+    echo "Good Evening"
+fi
+
+
+
+
+
+
+Write a shell script that prompts the user to enter a number between 1 and 7. The script should use a switch-case statement to display the corresponding day of week:
+
+1: Monday    2: Tuesday    3: Wednesday    4: Thursday    5: Friday 
+6: Saturday    7: Sunday
+
+
+#!/bin/bash
+read day
+read -p "Enter a number between 1 and 3: " day
+
+case $day in
+        1) echo "Monday" ;;
+        2) echo "Tuesday" ;;
+        3) echo "Wednesday" ;;
+        *) echo "Invalid" ;;
+esac
+
+
+
+
+
+
+Write a shell script that acts as a simple calculator. The script should prompt the user to enter two numbers and an operation (+, -, *, /). Use a switch-case statement to perform the corresponding arithmetic operation and display the result.
+
+Note:
++) result=$(echo "$num1 + $num2" | bc) ;;
+\*) result=$(echo "$num1 * $num2" | bc) ;;
+
+
+
+

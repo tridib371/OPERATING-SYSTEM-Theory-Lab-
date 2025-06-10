@@ -1,0 +1,17 @@
+vi filename.sh
+
+i
+
+#!/bin/bash
+
+echo "abc"
+
+esc
+
+:wq
+
+enter
+
+chmod +x filename.sh
+
+./filename.sh

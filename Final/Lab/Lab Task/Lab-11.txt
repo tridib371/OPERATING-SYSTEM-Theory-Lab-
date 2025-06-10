@@ -1,0 +1,103 @@
+#!/bin/bash
+os=('ubuntu' 'windows' 'linux')
+echo "${os[0]}"
+echo "${os[1]}"
+echo "${os[2]}"
+
+
+
+
+#!/bin/bash
+os=('ubuntu' 'windows' 'linux')
+echo "${os[0]}"
+echo "${os[1]}"
+echo "${os[2]}"
+
+echo "${#os[@]}"
+
+
+
+
+
+Write a shell script to create an array with the names of five fruits and print each element of the array.
+
+
+#!/bin/bash
+fruits=("Apple" "Banana" "Cherry" "Date" "Elderberry")
+for fruit in "${fruits[@]}"; do
+    echo $fruit
+done
+
+
+
+
+
+#!/bin/bash
+echo "Enter values:"
+read -a my_array                    # input 5 6
+echo "You entered the array: ${my_array[@]}"
+echo "First element: ${my_array[0]}"
+echo "Second element: ${my_array[1]}"
+
+for values in "${my_array[@]}"; do
+    echo $values
+done
+
+
+
+
+
+Write a shell script to create a file, write some text to it, and then display the content of the file.
+
+
+#!/bin/bash
+echo "This is a sample text." > sample.txt
+echo "This is a my sample text." >> sample.txt
+cat sample.txt
+
+
+
+
+Write a shell script to read the content of a file line by line and print each line.
+
+
+#!/bin/bash
+echo -e "Line 1\nLine 2\nLine 3" > lines.txt
+
+while IFS= read -r line; do            # Internal Field Separator
+   echo "$line"
+done < lines.txt
+
+
+
+
+
+
+#!/bin/bash
+echo Name-ID > data.txt
+echo Tanvir Ahmed-123466 >> data.txt
+echo Sabbir Ahmed-456792 >> data.txt
+echo Masum Ahmed-454679 >> data.txt
+
+cat data.txt
+echo
+file=data.txt
+while IFS='-' read -r name id     #use "" or ''
+do
+    echo "Name: $name, ID: $id"
+done < "$file"
+
+
+
+to print name------> name _
+
+
+
+
+
+
+
+
+
+
+

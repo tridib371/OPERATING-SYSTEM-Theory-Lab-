@@ -1,0 +1,86 @@
+cat >ab.txt 
+(cat ------> file create and read)
+
+ctrl + d (to exit)
+
+touch f1.txt f2.txt ------> to create f1 and f2 text file
+
+echo Hello>f1.txt
+
+echo World>f2.txt
+
+cat f1.txt f2.txt > n1.txt ------> to merge that two files
+
+cat n1.txt ------> to show content
+
+echo "Apple Banana Mango Orange Litchi" > f1.txt
+
+cat f1.txt | sort ------> to sort content (| = this is called as pipe)
+(by default ascending) what will be the command of descending?
+
+cat f1.txt | less ------> if there is too many commands it will show only the first page's content. press enter and it will go down automatically (ctrl + z = to back from this) 
+
+cat -n f1.txt ------> to list content
+
+touch .f2.txt ------> to create hidden file
+
+ls ------> to show created all file
+
+ls -a ------> to show that hidden file
+
+cat *.txt ------> it will show all content of created all files
+
+cat f1.txt>>f2.txt ------> 
+
+mkdir d1 d2 ------>
+
+cp f1.txt d1.txt ------> to copy content (f1 = source, d1 = destination)
+
+ls d1 ------> 
+
+cp -r d1 d2 ------> it will copy d1 and paste to d2
+
+mv f1.txt nf1.txt ------> move and rename
+
+mv nf1.txt d1 ------> to move content from nf1 to d1
+
+$ rm* ------> to remove all file
+
+rm -d d1 ------> if not empty
+rmdir d1 ------> if empty
+rmdir -r d1 ------> if there is subdirectory 
+rm -r d1 ------> 
+(to remove directory)
+
+mkdir a\b\c\d ------> 
+
+mkdir -p a\b\c\d ------> to create nested directory
+
+cal ------> it will show calander of current month
+
+date +"%T" ------> it will show current date
+
+date +"%D"
+
+cal -y 2022
+
+cal 3 2022
+
+ncal -bS
+
+ncal -bM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

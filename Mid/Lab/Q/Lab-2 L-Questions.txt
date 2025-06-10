@@ -1,0 +1,41 @@
+1. Display current directory
+
+2. Check operating system information
+
+3. Create a new directory
+
+4. Navigate to the new directory
+
+5. List files in the directory
+
+6. List all files, including hidden files
+
+7. Create a new file
+
+8. Add content to the file
+
+9. Append content to the file
+
+10. View the content of the file
+
+11. Create multiple files
+
+12. Display a list of files with a specific extension
+
+13. Create a nested directory structure
+
+14. Move between directories
+
+15. Display system kernel information
+
+16. Display system architecture
+
+17. Create a hidden file
+
+18. Redirect command output to a new file
+
+19. Append system information to a log file
+
+
+
+

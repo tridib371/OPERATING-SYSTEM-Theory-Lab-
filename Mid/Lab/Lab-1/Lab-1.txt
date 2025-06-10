@@ -1,0 +1,41 @@
+dir -----> directory
+
+cd ------> change directory
+
+cls ------> clear
+
+cd .. ------> go back
+
+help ------> all command will show
+
+help cd ------> particular command description will show
+
+mkdir test ------> it will create a folder named test
+
+echo xyz ------> it will show xyz message
+
+echo GOOD MORNING > t.txt ------> it will create a t.txt file with GOOD MORNING message
+
+type t.txt ------> it will show the content of that text file
+
+echo HELLO >> t.txt ------> to add more text in that file
+
+del t.txt ------> to delete text file
+
+help rmdir
+
+rmdir test ------> to delete folder named test
+
+
+
+
+
+
+
+
+
+
+
+
+
+

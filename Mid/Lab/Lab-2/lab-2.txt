@@ -1,0 +1,54 @@
+mkdir d1 d2 ------> it will create two folder named d1 and d2
+
+echo Good Morning > a.txt ------> it will create a text file with Good Morning message
+
+type a.txt ------> it will show the content of that text file
+
+type > f.txt ------> it will just create a empty text file
+
+echo AIUB >> a.txt ------> to add more text in that file
+
+echo Bangladesh >> a.txt ------> same as previous one
+
+type a.txt ------> it will show the content of that text file
+
+copy a.txt ..\d2 ------> it will copy a.txt file from d1 and paste to d2
+
+for %i in (f1.txt f2.txt f3.txt f4.txt f5.txt) do echo. > %i ------> it will create five text file in one time
+
+del *.txt ------> it will delete all text file
+
+del f*.txt ------> it will delete that text files with name of f
+
+mkdir a.txt ------> it will create empty text file named a.txt
+
+rename a.txt g.txt ------> to rename text file
+
+move g.txt ..\d2 ------> to move text file
+
+rmdir d2 ------> it will not delete the d2 folder because, d2 is not empty
+
+rmdir /s d2 ------> it will delete d2 folder with that text files
+
+date /t ------> to show date
+
+time /t ------> to show time
+
+ipconfig ------> to show ip address
+
+whoami ------> it will show the name of user of the system
+
+sort b.txt ------> to sort the content of text file
+
+sort b.txt > k.txt ------> it sorts the content of b.txt file and saves the sorted result in new k.txt file
+
+mkdir folder && echo null>a.txt && echo Good Morning>a.txt && type a.txt
+
+find "mango" nb.txt ------> to finding specific text
+
+
+
+
+
+
+

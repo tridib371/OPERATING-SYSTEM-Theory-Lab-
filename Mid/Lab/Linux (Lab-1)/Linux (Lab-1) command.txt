@@ -1,0 +1,74 @@
+uname -m ------> it will show system architecture 
+
+uname -r ------> it will show kernel version
+
+man uname ------> help
+
+pwd ------> it will show current directory
+
+ls ------> to list files in the directory
+
+ls -a ------> it will list all files including hidden file
+
+clear ------> to clear all command
+
+mkdir dt1
+mkdir dt2
+
+history ------> 
+
+touch ab.txt ------> to create a new txt file
+
+cd ------> change directory
+
+dir ------> directory
+
+echo good morning > ab.txt ------> 
+
+cat ab.txt ------> to show the content
+
+echo AIUB >> ab.txt ------> to add more content
+
+cat ab.txt ------> to show the content
+
+cp ab.txt ../dt2 ------> copy and paste
+
+cd .. ------> go back
+
+cd dt2
+ls
+
+mkdir b c ------> 
+
+ls -la ------> 
+
+ls *.txt ------> to show all .txt file
+
+ls -la >>h.txt ------> 
+
+rm a.txt ------> to delete file
+
+rmdir c ------> to delete directory
+
+cal ------> to show current month calendar
+
+cal -y ------> to show yearly calendar
+
+touch .hidden.txt ------> to create hidden file
+
+mkdir dir1 && echo sgfjhgfjh > dir1/t.txt ------> it will create dir1 directory and t.txt file with sgfjhgfjh content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
